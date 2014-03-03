@@ -1,8 +1,5 @@
 $(call inherit-product, device/samsung/hlte/full_hlte.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cyandream/config/gsm.mk)
-
 # Enhanced NFC
 $(call inherit-product, vendor/cyandream/config/nfc_enhanced.mk)
 
